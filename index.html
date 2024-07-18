@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Bootstrap B&B
+    CIS-130
+    Author: Anthony Nelson
+    Date: 7/16/2024
+    Filename: index.html -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap_index</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/e577def877.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container top-header border-leftright">
+    <img src="img/logo.png" class="img-fluid float-start rounded-circle logo-header" alt="logo">
+    <h1 class="display-1">Vineyard Villas</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded main-nav">
+      <div class="container-fluid nav-container">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Rooms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Thing to do</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                More Information
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Special Events</a></li>
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="container text-center carousel-section border-leftright">
+    <h2>Experience Rich Rural History and First Class Hospitality</h2>
+    <p>Step inside any of our many villas and experience a cozy, welcoming atmosphere that blends rich cultural history
+      outside with modern amenities inside. Enjoy a real retreat to the quiet countryside and enjoy the unique
+      experiences Vineyard Villas has to offer.</p>
+    <h6>Explore below and find the perfect room for you!</h6>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+          <img src="img/slide1.png" class="d-block w-100" alt="slide1">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide2.png" class="d-block w-100" alt="slide2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide3.png" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide4.png" class="d-block w-100" alt="slide4">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="container text-center border-leftright card-section">
+    <div class="row">
+      <div class="col room-card">
+        <div class="card mx-auto inner-card" style="width: 18rem;">
+          <img src="img/room1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Modern Room</h5>
+            <p class="card-text">Deluxe queen size bed, mirror divider into private bathroom, sliding door onto patio
+              overlooking vineyard.</p>
+            <a href="#" class="btn btn-primary card-btn">Check Availability</a>
+          </div>
+        </div>
+      </div>
+      <div class="col room-card">
+        <div class="card mx-auto inner-card" style="width: 18rem;">
+          <img src="img/room2.png" class="card-img-top" alt="...">
+          <div class="card-body body-card">
+            <h5 class="card-title">Lavender Room</h5>
+            <p class="card-text">Full size bed, bright and popping with color, large wardrobe, connected private
+              bathroom, wall-mounted television.</p>
+            <a href="#" class="btn btn-primary card-btn">Check Availability</a>
+          </div>
+        </div>
+      </div>
+      <div class="col room-card">
+        <div class="card mx-auto inner-card" style="width: 18rem;">
+          <img src="img/room3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Courtyard View</h5>
+            <p class="card-text">Lovely modern bed and desk, private bathroom, sliding door overlooking the courtyard of
+              the vineyard.</p>
+            <a href="#" class="btn btn-primary card-btn">Check Availability</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col room-card">
+        <div class="card mx-auto inner-card" style="width: 18rem;">
+          <img src="img/room4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Retro Central Room</h5>
+            <p class="card-text">Full size bed, large wardrobe, connected to private kitchenette and bathroom.</p>
+            <a href="#" class="btn btn-primary card-btn">Check Availability</a>
+          </div>
+        </div>
+      </div>
+      <div class="col room-card">
+        <div class="card mx-auto inner-card" style="width: 18rem;">
+          <img src="img/room5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Comfy Room</h5>
+            <p class="card-text">Small, yet cozy room with a private bathroom, desk and sliding door over looking
+              central part of the city. </p>
+            <a href="#" class="btn btn-primary card-btn">Check Availability</a>
+          </div>
+        </div>
+      </div>
+      <div class="col room-card">
+        <div class="card mx-auto inner-card" style="width: 18rem;">
+          <img src="img/room6.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Luxury Room</h5>
+            <p class="card-text">Deluxe king size bed, private bathroom with modern shower, desk and 65" television.</p>
+            <a href="#" class="btn btn-primary card-btn">Check Availability</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center amenities border-leftright">
+    <h2>Amenities</h2>
+    <p>Here are just some of the many amenities we offer at each location</p>
+    <div class="row">
+      <div class="col">
+        <ul class="list-group amenities-ul">
+          <li class="list-group-item"><i class="fa-solid fa-check" style="color: rgb(52, 178, 51);"></i> Spare Clean
+            linens</li>
+          <li class="list-group-item"><i class="fa-solid fa-check" style="color: rgb(52, 178, 51);"></i> Private
+            Bathrooms</li>
+          <li class="list-group-item"><i class="fa-solid fa-check" style="color: rgb(52, 178, 51);"></i> In-Wall USB
+            Outlets</li>
+          <li class="list-group-item"><i class="fa-solid fa-check" style="color: rgb(52, 178, 51);"></i> Free Wifi</li>
+          <li class="list-group-item"><i class="fa-solid fa-check" style="color: rgb(52, 178, 51);"></i> Personal Care
+            Products</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="list-group amenities-ul">
+          <li class="list-group-item"><i class="fa-solid fa-check" style="color: rgb(52, 178, 51);"></i> Central HVAC
+          </li>
+          <li class="list-group-item"><i class="fa-solid fa-check" style="color: rgb(52, 178, 51);"></i> Transportation
+            Services</li>
+          <li class="list-group-item"><i class="fa-solid fa-check" style="color: rgb(52, 178, 51);"></i> Laundry
+            Services</li>
+          <li class="list-group-item"><i class="fa-solid fa-check" style="color: rgb(52, 178, 51);"></i> Security
+            Services</li>
+          <li class="list-group-item"><i class="fa-solid fa-check" style="color: rgb(52, 178, 51);"></i> Outdoor Spaces
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center border-leftright thefooter">
+    <div class="row">
+      <div class="col soc-med">
+        <h2>Follow Us</h2>
+        <a href="https://facebook.com"><i class="fa-brands fa-square-facebook" title="Villas on Facebook"></i></a>
+        <a href="https://x.com"><i class="fa-brands fa-square-x-twitter" title="Villas on X"></i></a>
+        <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"
+            title="Villas on Instagram"></i></a>
+        <a href="https://www.tiktok.com"><i class="fa-brands fa-tiktok" title="Villas on TikTok"></i></a>
+      </div>
+      <div class="col footer-loc">
+        <h5>Main Office</h5>
+        <i class="fa-solid fa-location-dot"></i> 207 Le Puye <br>
+        71960 Vergisson, France
+        <h5>Contact Us</h5>
+        <a href="tel:33699876056">+33699876056</a> <br>
+        <a href="villas@example.com">villas@example.com</a>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col footer-info">
+      <a href="#">Blog</a> <br>
+      <a href="#">Privacy</a> <br>
+      <a href="#">Our Staff</a> <br>
+      <a href="#">Refund Policy</a> <br>
+      <a href="#">Shipping Policy</a> <br>
+      <a href="#">Terms of Service</a>
+    </div>
+    <div class="col">
+      <img src="img/logo.png" class="img-fluid rounded-circle logo-footer" alt="...">
+    </div>
+  </div>
+    <p class="copy">
+      &copy; 2024 Howard's, Inc., a Small Business OH. Group company. All rights reserved. Howard's and
+      the Howards's Logo are trademarks or registered trademarks of Howard's, Inc
+    </p>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
